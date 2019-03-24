@@ -1,0 +1,344 @@
+body{
+/* 
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Muli', sans-serif; */
+   
+    box-sizing: border-box;
+}
+
+#head{
+   
+    position: relative;
+    height: 100vh;
+    color: #fff;
+    background: url(../img/bg-pattern.png),#7b4397;
+    background: url(../img/bg-pattern.png),linear-gradient(to left,#7b4397,#dc2430);
+    background: url(../img/bg-pattern.png), webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+  
+}
+#head .navbar-brand{
+    color: #fccd54;
+}
+
+#head .navbar-brand:hover{
+   color: white !important;
+   transition: .40s;
+}
+
+#head .nav-link{
+    font-size: .85rem;
+    font-family: 'Muli', sans-serif;
+}
+
+#head .nav-link:hover{
+    color: white !important;
+    transition: 1s;
+   
+}
+
+ .text h3{
+     
+    font-size: 2.9rem !important;
+    font-family: Catamaran,Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    letter-spacing: 4px;
+    width: 556px;
+    line-height: 1.2;
+    margin-top: 7rem;
+}
+ .img{
+    position: relative;
+    background-image: url('../img/demo-screen-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15rem;;
+    border-radius: 3px;
+    height: 69vh;
+    z-index: 1;
+   
+   
+}
+
+.img-1{
+   
+   background-image: url('../img/iphone_6_plus_white_port.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   
+   height: 70vh;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-size: 48% 100%;  
+}
+
+.button .btn{
+    font-size: 11px;
+    padding: 15px 45px;
+    border-radius: 300px;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.button .btn-outline-warning{
+   
+    color: #fff;
+    border: 1px solid;
+    border-color: #fff;
+}
+
+#yellow{
+    display: flex;
+    
+    justify-content: center;
+    text-align: center;
+    background-color: #fdc845;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.text-1 h1{
+    display: inline-block;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 5rem;
+    margin: 10% 0%;
+   
+}
+.text-1 p{
+  margin-top: -5rem; 
+}
+
+.text-1 a img {
+    height: 60px;
+    margin-right: 1rem;
+}
+
+#fun{
+    text-align: center;
+    margin-top: 6rem;
+}
+.mobile{
+    position: relative;
+    background-image: url('../img/demo-screen-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15rem;;
+    border-radius: 3px;
+    height: 69vh;
+    z-index: 1;
+}
+
+.mobile-1{
+    background-image: url('../img/iphone_6_plus_white_port.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: 71% 100%;  
+}
+#icons{
+    text-align: center;
+    font-size:4.5rem;
+    color: #a5356a;
+}
+#icons h4{
+color: #424549;
+}
+#icons h6{
+    color: grey;
+    
+}
+#icons h4, h6{
+    text-align: center;
+}
+#photo{
+    position: relative;
+    background-image: url('../img/bg-cta.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 10rem;
+    
+   
+}
+
+#photo::before{
+    content: "";
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+    height: 100%; 
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    
+}
+
+.text-3 h1{
+  width: 400px;
+ color: white;
+ font-size: 4rem;
+ font-weight: 200;
+ letter-spacing: 1px;
+ margin-top: 10rem;
+ font-family: 'Catamaran', sans-serif;
+}
+    
+
+.text-3 .btn{
+    font-size: 11px;
+    padding: 15px 45px;
+    border-radius: 300px;
+    font-family: 'Muli', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+
+}
+
+.text-3 .btn-outline-warning{
+
+    color: #fff;
+    border: 1px solid;
+    border-color: #fff;
+
+
+} 
+#yellow-1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #fdc845;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+
+.write i{
+    color: red;
+
+}
+
+.write h3{
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+.icn  .fa-twitter{
+    font-size: 3rem;
+    color:white;
+    background-color: #1da1f2;
+    padding: .80rem;
+    border-radius: 50%;
+    margin: 0% 1%;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.icn .fa-facebook-f{
+    font-size: 3rem;
+    color:white;
+    background-color: #3b5998;
+    padding: .80rem;
+    border-radius: 50%;
+    margin: 0% 1%;
+    width: 5rem;
+    height: 5rem;
+}
+.icn  .fa-google-plus-g{
+    font-size: 3rem;
+    color:white;
+    background-color: #dd4b39;
+    padding: .80rem;
+    border-radius: 50%;
+    margin: 0% 1%;
+    width: 5rem;
+    height: 5rem;
+}
+#end{
+    display: flex !important;
+    align-items: center !important;
+}
+#end{
+    background-color: #222222;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    overflow: hidden;
+}
+#end .write-1{
+    color: grey;
+    text-align: center;
+    overflow: hidden;
+}
+#end a{
+    color: grey;
+    text-decoration: none;
+    margin: 0% .50%;
+}
+#end .write-2{
+  
+  
+    text-align: center;
+}
+#end a:hover{
+    color:#fdc845;
+    transition: .50s;
+}
+
+@media screen and (max-width:1200px){
+    #head .img{
+       display: none;
+    }
+}
+
+@media screen and (max-width:1200px){
+    #head .img-1{
+       display: none;
+    }
+}
+
+@media screen and (max-width:556px){
+    .text h3{
+        width: 100%;
+        font-size: 1.4rem !important;
+    }
+}
+
+@media screen and (max-width:768px){
+    .text-1 h1{
+        width: 100%;
+        font-size: 2.4rem !important;
+    }
+}
+@media screen and (max-width:768px){
+    .text-1 p{
+        width: 100%;
+       margin-top:1%;
+    }
+}
+@media screen and (max-width:1200px){
+    .mobile {
+      display: none;
+    }
+}
+@media screen and (max-width:1200px){
+    .mobile-1 {
+      display: none;
+    }
+}

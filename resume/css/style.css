@@ -1,0 +1,190 @@
+body{
+    height: 5000px;
+    /* font-family: 'Saira Extra Condensed', sans-serif;
+    font-family: 'Muli', sans-serif; */
+    
+}
+
+#head{
+    background-color: #bd5d38;
+    background-position: left;
+    background-size: cover;
+     width: 20%;
+     height: 100vh;
+     position: fixed;
+}
+
+.picture img{
+    border-radius: 50%;
+    width: 95%;
+    margin-top: 8rem;
+    border: 14px solid #ca7d60;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience a{
+    text-decoration: none !important;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2%;
+}
+.experience a:hover{
+    color: rgba(255,255,255,.75);
+}
+
+.text{
+    margin-top: 15%;
+}
+
+ .text h1{
+    font-size: 7rem;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 700;
+   
+    
+}
+.text h1 span{
+    color: #bd5d38;
+}
+
+.text a{
+    color: #bd5d38;
+    font-weight: bold;
+}
+.text span{
+    color: grey;
+    font-weight: 700;
+}
+
+.text p{
+    color: grey;
+    font-weight: 500;
+    margin-top: 10%;
+}
+
+ 
+  .fab {
+    font-size:2rem; 
+    background-color: #495057;
+    background-position: center !important;
+    width: 3.6rem;
+    height: 3.6rem; 
+    line-height: 3.5rem !important; 
+    margin-top: 10%;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+  
+}
+  .fab:hover{
+      background-color: #bd5d38;
+
+  }
+ 
+  hr{
+      margin-top: 10% !important;
+  }
+ 
+
+  #main-1 h1{
+
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 3.5rem;
+  }
+
+  #main-1 h4{
+
+
+  }
+
+#main-1 span{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #868e96;
+
+}
+
+#main-1 p{
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-top: 3rem!important;
+    color: #868e96;
+
+}
+
+
+.text-2{
+    margin-top: 10%;
+}
+
+.text-3{
+    margin-top: 10%;
+}
+
+.text-4 {
+    margin-top: 10%;
+
+}
+#main-2 h3{
+    margin-top: 10%;
+}
+.text-6 h1{
+    font-weight: 800;
+}
+.text-6 span{
+    color: grey !important;
+     margin-top: 3%;
+}
+.programming .fab{
+    color: grey !important;
+    background-color: white;
+    font-size: 3rem;
+    
+}
+
+.programming .fab:hover{
+    color: #bd5d38 !important;
+}
+
+.text-7 h1{
+    font-weight: bold;
+    
+}
+
+.text-7 p{
+    color: grey;
+ letter-spacing: .1rem;
+}
+
+.text-8 h1{
+    font-weight: 700;
+}
+
+.trophy{
+    display: flex;
+    flex-direction: column;
+    color: #ffc107;
+  
+}
+
+.fas{
+    margin-top: 1%;
+}
+
+ul li i  {
+   color: #ffc107;
+}
+
+
+ ul{
+    text-decoration: none !important;
+}
